@@ -1,0 +1,92 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+#login-main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login{
+ width: 35rem;
+ /* border: 1px dotted; */
+ border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.log-lab{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.log-fs p{
+  cursor: pointer;
+}
+
+/* .log-btn{
+  animation-name: btn-log;
+  animation-duration: 2s;
+  transition: all 0.2s;
+  
+}
+
+@keyframes btn-log{
+  from{
+    opacity: 0.1;
+    transform: translateX(-150%);
+  }
+  to{
+    transform: translateX(0);
+  }
+} */
+
+@media (max-width : 576px){
+  .login{
+    width: 20rem;
+  }
+}
+
+/* SignUp */
+
+.signup{
+  width: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sig-lab{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+.log-cur{
+  cursor: pointer;
+}
+
+@media (max-width : 576px){
+  .signup{
+    width: 20rem;
+  }
+}
+
+.show{
+  display: block;
+}
+
+.no-show{
+  display: none;
+}
+
+/* forgetten password */
+
+.forget{
+  margin-top: 6rem;
+  width: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
