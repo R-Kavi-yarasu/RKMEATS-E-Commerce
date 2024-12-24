@@ -32,7 +32,6 @@ export default function Cart() {
                 </tr>
                 {items.map((item, index) => {
                   return (
-
                     <tr key={index}>
                       <td>
                         <img src={item.img} style={{ height: '6rem' ,width: '8rem' }} alt='itemImg' className='rounded' />
