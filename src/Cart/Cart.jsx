@@ -20,7 +20,7 @@ export default function Cart() {
       </div>
       {isEmpty ? <h1 className='fw-bold align-items-center d-flex justify-content-center m-5 p-5' style={{ height: "70vh" }}>Your cart is empty.</h1> :
         <div className="cart container">
-          <div className="conform-order">
+          <div className="conform-order table-responsive">
             <table className="table table-light table-hover mt-5">
               <tbody>
                 <tr className='fs-5 text-uppercase'>
