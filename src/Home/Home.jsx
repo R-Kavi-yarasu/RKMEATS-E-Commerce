@@ -16,12 +16,12 @@ import CatPickle from '../assests/HomePics/Pickle-category.webp'
 
 export default function Home() {
   const videoRef = useRef();
-  const buttonRef = useRef();
+  // const buttonRef = useRef();
 
-  const handleControl = () =>
-    videoRef.current.paused
-      ? (videoRef.current.play(), (buttonRef.current.innerHTML = "Pause"))
-      : (videoRef.current.pause(), (buttonRef.current.innerHTML = "Play"));
+  // const handleControl = () =>
+  //   videoRef.current.paused
+  //     ? (videoRef.current.play(), (buttonRef.current.innerHTML = "Pause"))
+  //     : (videoRef.current.pause(), (buttonRef.current.innerHTML = "Play"));
 
   return (
     <div>
@@ -37,9 +37,9 @@ export default function Home() {
           <p className='ps-2 content-subhead my-4'>
             Welcome to RK Meats, where every cut tells a story of quality, flavor, and care. Our premium selection of meats is handpicked to bring the best to your table—whether you're grilling, roasting, or cooking up a family favorite. From succulent steaks to tender poultry and specialty cuts, we take pride in delivering freshness and excellence in every bite. Experience meats that inspire your culinary creations and make every meal a masterpiece. Discover why our customers call us the home of "clever cuts and brilliant flavors."
           </p>
-          <button ref={buttonRef} id="myBtn" className='btn' onClick={handleControl}>
+          {/* <button ref={buttonRef} id="myBtn" className='btn' onClick={handleControl}>
             Pause
-          </button>
+          </button> */}
         </div>
       </div>
       <div id="home-3 row container">

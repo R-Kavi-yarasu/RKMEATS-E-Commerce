@@ -24,8 +24,11 @@
 #hover-nav:hover::after {
   transform: scaleX(1);
 }
-
-
+/* 
+.bg-nav{
+  background-color: #618264;
+  color: #D0E7D2;
+} */
 /* Home */
 
 #myVideo {
